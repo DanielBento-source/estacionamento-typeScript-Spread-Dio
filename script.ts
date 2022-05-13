@@ -11,7 +11,7 @@ interface Veiculo {
         const min = Math.floor(mil / 60000)
         const sec = Math.floor((mil % 60000) / 1000)
 
-        return `${min} e ${sec}`
+        return `${min} minutos e ${sec} segundos`
     }
 
     function patio (){
